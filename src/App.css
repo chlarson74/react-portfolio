@@ -47,11 +47,13 @@ aside {
 aside p {
   margin:20px 20px 20px 0;
 }
+footer a h2,
 aside a {
   text-decoration: none;
   font-weight: bold;
   color:black;
 }
+footer a h2:hover,
 aside a:hover {
   color:darkblue;
 }
