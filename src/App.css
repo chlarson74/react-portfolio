@@ -38,6 +38,7 @@ nav a {
 }
 nav a:hover {
   background-color:lightgray;
+  color:darkblue;
 }
 aside {
   width: 20%;
@@ -50,6 +51,9 @@ aside a {
   text-decoration: none;
   font-weight: bold;
   color:black;
+}
+aside a:hover {
+  color:darkblue;
 }
 /* faze will adjust the aesthetic to the profile photo */
 .faze {
