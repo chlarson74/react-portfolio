@@ -1,6 +1,8 @@
 // Main.js
 import React from 'react';
 import ProfileImage from '../images/profile-pic.jpg';
+import Form from './Form';
+
 function Main() {
   return (
 
@@ -9,7 +11,11 @@ function Main() {
             <img className="faze" src={ProfileImage} alt="chris larson - web developer" />
             <p style={{color:"black"}}>web development<br/>&amp; seo marketing<br/>full design services<br/></p>
         <p style={{color:"black"}}>chris larson is a web developer with 10 years experience driving results for over 350 happy clients. the focus of his work is creating search engine optimized websites for small and medium sized business. he earned a bfa with honors from cornish college of the arts and has developed designs for both print and digital projects. chris is also a full-time faculty instructor at <a href="https://www.everettcc.edu/" target="_blank" rel="noreferrer">everett community college</a> and the director of the <a href="https://www.google.com/maps/uv?pb=!1s0x549aaacd4f27e023%3A0x98c7b2b7c6a4182d!5sRussell%20Day%20Gallery!15sCgIgARICEAE" target="_blank" rel="noreferrer">russell day gallery.</a></p>
+        <hr style={{width:"90%"}}/>
+        <p style={{color:"black", fontWeight:"bolder"}}>contact me</p>
+        <Form />
         </aside>
+
         <article id="work">
                 <section className="project" id="surf-report">
                     <p>
